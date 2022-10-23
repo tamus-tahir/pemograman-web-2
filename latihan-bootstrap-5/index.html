@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="aos/aos.css">
+    <link rel="stylesheet" href="owlcarousel2/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel2/owl.theme.default.css">
+
+    <style>
+        .carousel-item img {
+            height: 90vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar   -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container py-2 ">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo Unitama" width="30" class="d-inline-block align-text-top">
+                UNITAMA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="index.html">BERANDA</a>
+                    <a class="nav-link" href="galeri.html">GALERI</a>
+                    <a class="nav-link" href="kontak.html">KONTAK</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar   -->
+
+    <!-- hero -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel-1.jpg" class="d-block w-100" alt="image slide">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-2.jpg" class="d-block w-100" alt="image slide">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-3.jpg" class="d-block w-100" alt="image slide">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- end hero -->
+
+    <!-- sambutan -->
+    <section class="container my-5">
+        <div class="row g-5">
+            <div class="col-md-4 " data-aos="fade-right">
+                <div class="card bg-light shadow">
+                    <img src="img/profil.jpg" class="card-img-top" alt="Image Pr0file">
+                    <div class="card-body">
+                        <h5 class="card-title">TAMUS BIN TAHIR</h5>
+                        <p class="card-text">REKTOR UNITAMA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 " data-aos="fade-left" data-aos-delay="100">
+                <div class="card bg-light shadow p-5">
+                    <h5 class="lh-lg">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tempore sunt necessitatibus
+                        dolores fugiat, assumenda ducimus laborum, minus magnam quae cupiditate, qui voluptas! Labore
+                        eveniet, asperiores ipsam, itaque temporibus dolores in molestiae vitae mollitia laboriosam
+                        minima expedita quibusdam. Molestias eos suscipit voluptatibus numquam veniam aperiam quis est
+                        consequuntur? Laboriosam eaque temporibus reiciendis iure quia quod nostrum at nisi sed non unde
+                        similique porro voluptatum, voluptatem accusamus velit obcaecati cupiditate iusto cum explicabo.
+                        Sapiente, delectus eius. Similique iusto repudiandae atque numquam, molestiae delectus porro
+                        facere deserunt earum ipsum cupiditate sed vero ad corrupti quaerat minima cumque laudantium
+                        explicabo illo culpa! Possimus.
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sambutan -->
+
+    <!-- counter -->
+    <section class="bg-dark py-5">
+        <div class="container">
+            <div class="row g-3">
+
+                <div class="col-md-3" data-aos="fade-right">
+                    <div class="card p-3 text-center">
+                        <h1>
+                            <span data-purecounter-start="0" data-purecounter-end="5" class="purecounter"></span>
+                        </h1>
+                        <h5>Program Studi</h5>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card p-3 text-center">
+                        <h1>
+                            <span data-purecounter-start="0" data-purecounter-end="48" class="purecounter"></span>
+                        </h1>
+                        <h5>Dosen</h5>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-delay="200">
+                    <div class="card p-3 text-center">
+                        <h1>
+                            <span data-purecounter-start="0" data-purecounter-end="1252" class="purecounter"></span>
+                        </h1>
+                        <h5>Mahasiswa</h5>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-kiri" data-aos-delay="300">
+                    <div class="card p-3 text-center">
+                        <h1>
+                            <span data-purecounter-start="0" data-purecounter-end="2115" class="purecounter"></span>
+                        </h1>
+                        <h5>Alumni</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end counter -->
+
+    <!-- berita -->
+    <section class="container py-5">
+
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h3>BERITA TERBARU</h3>
+        </div>
+
+        <div class="row g-5">
+
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card shadow">
+                    <img src="img/news-1.jpg" class="card-img-top" alt="Img News">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="card shadow">
+                    <img src="img/news-2.jpg" class="card-img-top" alt="Img News">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                <div class="card shadow">
+                    <img src="img/news-3.jpg" class="card-img-top" alt="Img News">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end berita -->
+
+    <!-- mitra -->
+    <section class="container my-5">
+        <div class="owl-carousel owl-theme">
+            <img src="img/mitra-1.png" alt="Image Mitra" data-aos="zoom-in" data-aos-delay="100">
+            <img src="img/mitra-2.png" alt="Image Mitra" data-aos="zoom-in" data-aos-delay="200">
+            <img src="img/mitra-3.png" alt="Image Mitra" data-aos="zoom-in" data-aos-delay="300">
+            <img src="img/mitra-4.png" alt="Image Mitra" data-aos="zoom-in" data-aos-delay="400">
+            <img src="img/mitra-5.png" alt="Image Mitra" data-aos="zoom-in" data-aos-delay="500">
+            <img src="img/mitra-6.png" alt="Image Mitra" data-aos="zoom-in" data-aos-delay="600">
+            <img src="img/mitra-7.png" alt="Image Mitra" data-aos="zoom-in" data-aos-delay="700">
+        </div>
+    </section>
+    <!-- end mitra -->
+
+    <!-- footer -->
+    <footer class="bg-success py-3">
+        <div class="container">
+            <h6 class="text-light">@2022 | Tamus D Tahir</h6>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="jquery/jquery-3.6.1.min.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="aos/aos.js"></script>
+    <script src="purecounterjs/purecounterjs.js"></script>
+    <script src="owlcarousel2/owl.carousel.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+
+        const pure = new PureCounter();
+
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>
